@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cz.cvut.fit.tjv.lekinohej.service.CinemaServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-01T12:07:43" hostname="vtn-Z" time="0.009">
+  <properties/>
+  <testcase name="testAssigningOwner()" classname="cz.cvut.fit.tjv.lekinohej.service.CinemaServiceTest" time="0.009"/>
+  <system-out><![CDATA[2024-01-01T13:07:42.449+01:00  INFO 15478 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [cz.cvut.fit.tjv.lekinohej.service.CinemaServiceTest]: CinemaServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-01-01T13:07:42.455+01:00  INFO 15478 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration cz.cvut.fit.tjv.lekinohej.LeKinoHejApplication for test class cz.cvut.fit.tjv.lekinohej.service.CinemaServiceTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.3)
+
+2024-01-01T13:07:42.474+01:00  INFO 15478 --- [    Test worker] c.c.f.t.l.service.CinemaServiceTest      : Starting CinemaServiceTest using Java 19.0.2 with PID 15478 (started by vtn in /home/vtn/skola/semestr_5/tjv/semestralni_prace/LeKinoHej)
+2024-01-01T13:07:42.474+01:00  INFO 15478 --- [    Test worker] c.c.f.t.l.service.CinemaServiceTest      : No active profile set, falling back to 1 default profile: "default"
+2024-01-01T13:07:42.681+01:00  INFO 15478 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-01T13:07:42.690+01:00  INFO 15478 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 3 JPA repository interfaces.
+2024-01-01T13:07:42.718+01:00  INFO 15478 --- [    Test worker] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2024-01-01T13:07:42.866+01:00  INFO 15478 --- [    Test worker] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:fb44b12f-42f1-4540-9663-5dfcfa9004aa;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2024-01-01T13:07:42.885+01:00  INFO 15478 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-01T13:07:42.888+01:00  INFO 15478 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-01-01T13:07:42.889+01:00  INFO 15478 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-01T13:07:42.890+01:00  WARN 15478 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000511: The 2.1.0 version for [org.hibernate.dialect.PostgreSQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 10.0.0. Check the community dialects project for available legacy versions.
+2024-01-01T13:07:42.903+01:00  INFO 15478 --- [    Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-01-01T13:07:42.947+01:00  INFO 15478 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-01-01T13:07:42.955+01:00  INFO 15478 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-01T13:07:43.501+01:00  WARN 15478 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-01T13:07:43.689+01:00  INFO 15478 --- [    Test worker] c.c.f.t.l.service.CinemaServiceTest      : Started CinemaServiceTest in 1.23 seconds (process running for 6.206)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
